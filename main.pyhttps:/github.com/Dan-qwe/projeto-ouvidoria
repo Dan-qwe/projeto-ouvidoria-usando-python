@@ -1,0 +1,138 @@
+
+opcao = 0
+manifesto=0
+manifestaçoes=[]
+protocolo = len(manifestaçoes) + 1
+assunto=0
+assuntos=[]
+
+import Textos
+
+
+
+def menu():
+    print('''Ouvidoria Universidade ABC
+1) Listar todas as manifestações
+2) Listar todas as sugestões
+3) Listar todas as reclamações
+4) Listar todos os elogios
+5) Enviar uma manifestação
+6) Pesquisar protocolo por numero(ID)      
+7) Sair''')
+
+
+while opcao != 7:
+    access = menu()
+
+    opcao = int(input('digite uma das opcoes: '))
+
+    if opcao == 1:
+        print('''Suas antigas manifestações
+    1) Boleto segunda via
+    2) Falta de computadores
+    3) Fui desrespeitado''')
+        for assunto in assuntos:
+            acontece=(print('  ',len(manifestaçoes)+3,')', assunto))
+
+        problema = int(input(print('digite a manifestação desejada: ')))
+
+        if problema == 1:
+            print(Textos.boleto)
+        elif problema == 2:
+            print(Textos.computadores)
+        elif problema == 3:
+            print(Textos.desrespeito)
+        elif problema==4:
+            for manifestaçao in manifestaçoes:
+                print(manifestaçao)
+        else:
+            print('error')
+    elif opcao == 2:
+        print('''Todas as suas sugestões
+     1) Temos que melhorar nossos estudos
+     2) Melhorar o treino
+     3) Desenvolvimento de equipe melhor
+    ''')
+        sugestao = int(input(print('Digite qual sugestão você quer ver?: ')))
+        if sugestao == 1:
+            print(Textos.estudar)
+        elif sugestao == 2:
+            print(Textos.treino)
+        elif sugestao == 3:
+            print(Textos.equipe)
+        else:
+            print('error')
+    elif opcao == 3:
+        print('''Todas as suas Reclamações
+         1) Quero sair da faculcade
+         2) Não dá pra estudar nessa faculdade
+         3) Lugar horrivel
+        ''')
+        reclamacao = int(input(print('Digite qual reclamação você quer ver?: ')))
+        if reclamacao == 1:
+            print(Textos.estresse)
+        elif reclamacao == 2:
+            print(Textos.lixo)
+        elif reclamacao == 3:
+            print(Textos.horrivel)
+        else:
+            print('error')
+    elif opcao == 4:
+        print('''Todas aos seus elogios:
+             1) Muito bom o sistema de ensino
+             2) Otimo professor de programação
+             3) Lugar pacífico ''')
+        elogio = int(input(print('Digite qual elogio você quer ver?: ')))
+        if elogio == 1:
+            print(Textos.adorei)
+        elif elogio == 2:
+            print(Textos.otimo)
+        elif elogio == 3:
+            print(Textos.pacifico)
+        else:
+            print('error')
+    elif opcao == 5:
+        protocolo = len(manifestaçoes) + 1
+        assunto = str(input('qual o assunto a ser falado: '))
+        assuntos.append(assunto)
+        descriçaoproblema = str(input('descreva a manifestação '))
+        manifestaçoes.append(descriçaoproblema)
+        while manifesto<1 or manifesto>3:
+            manifesto = int(
+                input('Digite qual manifesto você quer ver: sugestão(1), reclamação(2) ou elogio(3). '))
+            if manifesto < 1 or manifesto > 3:
+               print('Tipo de manifestação inválido: Repetir o processo!')
+       
+
+    elif opcao == 6:
+        ID = int(input('digite o numero do protocolo: '))
+        if ID == 1:
+            print(Textos.boleto)
+        elif ID == 2:
+            print(Textos.computadores)
+        elif ID == 3:
+            print(Textos.desrespeito)
+        elif ID == 4:
+            print(Textos.professores)
+        elif ID == 5:
+            print(Textos.mictorios)
+        elif ID == 6:
+            print(Textos.estudar)
+        elif ID == 7:
+            print(Textos.treino)
+        elif ID == 8:
+            print(Textos.equipe)
+        elif ID == 9:
+            print(Textos.estresse)
+        elif ID == 10:
+            print(Textos.lixo)
+        elif ID == 11:
+            print(Textos.horrivel)
+        elif ID == 12:
+            print(Textos.adorei)
+        elif ID == 13:
+            print(Textos.otimo)
+        elif ID == 14:
+            print(Textos.pacifico)
+        else:
+            print('codigo de ID não registrado')
