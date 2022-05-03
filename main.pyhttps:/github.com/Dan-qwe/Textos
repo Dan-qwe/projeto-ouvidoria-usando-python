@@ -1,0 +1,90 @@
+boleto='''
+    1) boleto segunda via
+    Desejei minha segunda via para poder pagar entretanto eu nunca recebi minha segunda via
+
+    (resposta)
+    Desculpa por qualquer incômodo estamos tentando resolver da melhor forma possivel, entraremos em contato'''
+computadores='''
+    2) Falta de computadores
+    As aulas de Design está complicada por conta da falta de computadores
+
+    (Resposta)
+     Estamos providenciando computadores melhores para poder resolver esse problema'''
+desrespeito='''
+    3) Fui desrespeitado
+    Ao passar o dia estudando na faculdade o Rogério me assediou em frente a todos da sala
+
+    (Resposta)
+    Entraremos em contato com Rogério e será elertado sobre todos os problemas que ele lhe afetou, pedimos 
+    desculpas por qualquer imprevisto'''
+professores='''
+    4) Falta de professores
+    Com a grande carga horária de estudos muitos porfessores estão dando desculpas para não comparecer naus aulas
+    necessitamos de alguma ajuda, por favor me ajude
+
+    (reposta)
+    Estamos cientes desse problema e estamos tentando resolver, fique atento para a proxima aula'''
+mictorios='''
+    5) falta de Mictórios
+    Com o grande circulo de pessoas nos banheiros e muitas pessoas quebrando os mictórios está faltando os 
+    mictórios por favor prestem atenção nesses problemas
+
+    (Reposta)
+    Com o grande circulo de problemas, muitos alunos estão '''
+estudar='''
+    1) temos que melhorar nossos estudos
+    todos nós temos que melhorar os estudos porem as pessoas estão jogando nos computadores
+    que tal um programa pra poder impedir esse problema
+
+    (Resposta)
+    temos noção disso tudo para poder melhorar estamos providênciando isso'''
+treino='''
+    2) Melhorar o treino
+    Que tal melhorar o treino com trabalhos mais complexos e projetos onde as pessoas prssisam 
+    'pensar fora da caixa'
+
+    (Resposta)
+         Muito boa sua sugestão, estaremos trabalahando por isso'''
+equipe='''
+     3) Desenvolvimento de equipe melhor
+    Estamos melhorando nossa equipe mas não tem lugares para nós nos sentarmos juntas, nos ajuda pfv
+
+    (Resposta)
+         Estamos melhorando e deixando a faculdade de forma mais integra para poder melhorar tudo'''
+estresse='''
+    1) Quero sair da faculdade
+    Lugar horrorozo de viver, sempre tem algum problema pra resolver ou tem algo que me extresso
+
+    (Resposta)
+         Desculpa qualquer problema que você está passando passa amanhã para po nosso sistema de inscrição para
+         podermos resolver isso'''
+lixo='''
+     2) Não dá pra estudar nessa faculdade
+     Cara faculdade lixo, insuportavel
+
+    (Resposta)
+        por favor entrar em contato com o nosso sistema de comunicação'''
+horrivel='''
+    3) Lugar horrivel
+    Vou sair dessa fauldade lixo, não presta pra nada
+
+    (Resposta)
+         por favor entrar em contato com o nosso sistema de comunicação'''
+adorei='''
+    1) Muito bom o sistema de ensino
+    Adorei 100% o que aprendi e o que passei nessa faculdade, adoro cada minuto que eu passo
+
+    (Resposta)
+          Que bom que estaja se divertindo espero que vc fique mais feliz'''
+otimo='''
+    2) Otimo professor de programação
+    Adorei o professor, ele dá um otimo conteudo
+
+    (Resposta)
+         Que bom que estaja se divertindo espero que vc fique mais feliz'''
+pacifico='''
+    3) Lugar pacífico
+     Nunca reclamei, adoro a calma das salas e do intervalo
+
+    (Resposta)
+             Que bom que estaja se divertindo espero que vc fique mais feliz'''
